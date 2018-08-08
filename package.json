@@ -1,0 +1,22 @@
+{
+  "name": "pdfmake-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongln88/pdfmake-template.git"
+  },
+  "author": "Nam Truong Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truongln88/pdfmake-template/issues"
+  },
+  "homepage": "https://github.com/truongln88/pdfmake-template#readme",
+  "dependencies": {
+    "pdfmake": "0.1.37"
+  }
+}
