@@ -1,5 +1,11 @@
 $(function() {
     $("#test").click(function() {
-        alert("test");
+        pdfMake.createPdfFromTemplate('template.yaml', data).then(doc => {
+            doc.download('test.pdf');
+        });
     });
 });
+
+let data = {
+    hello: 'Hello World!'
+}

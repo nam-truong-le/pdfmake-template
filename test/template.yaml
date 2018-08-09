@@ -1,0 +1,3 @@
+content:
+  - 'This is a plain text'
+  - 'This is a text with variable: {{hello}}'
