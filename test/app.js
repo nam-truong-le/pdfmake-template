@@ -7,5 +7,13 @@ $(function() {
 });
 
 let data = {
-    hello: 'Hello World!'
+    hello: 'Hello World!',
+    name: {
+        first: 'First name',
+        last: 'Last name'
+    },
+    items: [
+        {name: 'Item 1'},
+        {name: 'Item 2'}
+    ]
 }

@@ -1,3 +1,7 @@
 content:
   - 'This is a plain text'
   - 'This is a text with variable: {{hello}}'
+  - 'Name = {{name.last}}, {{name.first}}'
+  {{#each items}}
+  - 'Item {{name}}'
+  {{/each}}
